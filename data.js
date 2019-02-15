@@ -1,7 +1,3 @@
-data = '[{"nama1" : "Iftah Lana"}, {"nama2" : "Taufik"}, {"alamat" : "Perkebunan Tlk. Dalam, Tlk. Dalam, Kabupaten Asahan, Sumatera Utara 21271"}, {"phone1" : "0821 6501 9230"}, {"whatsapp1" : "0821 6501 9230"}, {"phone2" : "0852 6099 2334"}, {"whatsapp2" : "0852 6099 2334"}, {"keterangan" : "Voucher Hotspot AsahanTECH bisa dibeli di Pondok Srikandi Perkebunan Teluk Dalam, Pondok Afd V Sukaraja Perkebunan Teluk Dalam, Simpang Kawat (Warung Midun), atau Pondok Afd V/VI Perkebunan Hessa."}, {"copyyear" : "2018"}, {"copyright" : "AsahanTECH"}, {"trial" : "Coba Gratis"}, {"host" : "http://asahantech.wifi"}]';
+data = '[{"copyright" : "AsahanTECH"}]';
 
-datatitle = '[{"title1" : "Peringatan"}, {"title2" : "Expired"}]';
-
-pagestitle = '[{"pages1" : "AsahanTECH | Masuk"}, {"pages2" : "Voucher Hotspot | AsahanTECH"}, {"pages3" : "Internet Rumah | AsahanTECH"}, {"pages4" : "Pasang Iklan | AsahanTECH"}, {"pages5" : "FAQ | AsahanTECH"}, {"pages6" : "Support | AsahanTECH"}, {"pages7" : "Status | AsahanTECH"}, {"pages8" : "Error | AsahanTECH"}, {"pages9" : "AsahanTECH | Keluar"}, {"pages10" : "Iklan | AsahanTECH"}, {"pages11" : "QR Code Scanner | AsahanTECH"}]';
-
-dataerr = '[{"expired" : "Kode Voucher atau User yang Anda masukkan sudah expired. Silahkan gunakan Kode Voucher atau User yang masih berlaku."}, {"invaliduser" : "Kode Voucher atau User yang Anda masukkan tidak sesuai. Silahkan masukkan kembali dengan benar."}, {"sudahlogin" : "User yang Anda masukkan sudah login, Anda tidak dapat login untuk yang kedua kalinya. Silahkan tunggu 2 menit Kode Voucher atau User Anda akan logout secara otomatis. Jika tidak, maka kemungkinan besar Kode Voucher atau User Anda digunakan oleh orang lain. Jagalah kerahasiaan Kode Voucher atau User Anda!"}, {"ilegal" : "Anda tidak bisa login menggunakan device ini. Silahkan gunakan device yang terdaftar."}, {"radius" : "RADIUS server tidak merespon."}]';
+pagestitle = '[{"pages" : "QR Code Scanner | AsahanTECH"}]';
