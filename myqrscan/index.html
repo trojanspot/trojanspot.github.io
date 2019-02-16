@@ -173,11 +173,7 @@
 		<script src="./jquery.min.js"></script>
 		<script src="./myscript.js"></script>
 		<script>
-			var mydata = JSON.parse(data);
-			var mypages = JSON.parse(pagestitle);
-			
-			document.getElementById('pages').innerHTML = mypages[0].pages ;
-			document.getElementById('copyright').innerHTML = mydata[0].copyright ;
+			eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('1 2=3.4(b);1 5=3.4(c);6.7(\'8\').9=5[0].8;6.7(\'a\').9=2[0].a;',13,13,'|var|mydata|JSON|parse|mypages|document|getElementById|pages|innerHTML|copyright|data|pagestitle'.split('|'),0,{}))
 		</script>
 	</body>
 </html>
