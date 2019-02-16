@@ -114,39 +114,8 @@
 		<script src="./llqrcode.js"></script>
 		<script src="./webqr.js"></script>
 		<script src="./data.js"></script>
-		<script>
-			<!--
-			
-			//Disable right mouse click Script
-			//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive
-			
-			///////////////////////////////////
-			function clickIE4(){
-				if (event.button==2){
-					return false;
-				}
-			}
-			
-			function clickNS4(e){
-				if (document.layers||document.getElementById&&!document.all){
-					if (e.which==2||e.which==3){
-						return false;
-					}
-				}
-			}
-			
-			if (document.layers){
-				document.captureEvents(Event.MOUSEDOWN);
-				document.onmousedown=clickNS4;
-			}
-			else if (document.all&&!document.getElementById){
-				document.onmousedown=clickIE4;
-			}
-			
-			// -->
-		</script>
 	</head>
-	<body oncontextmenu="return false;">
+	<body>
 		<center>
 			<div>
 				<b><span id="copyright"></span> QR Code Scanner</b>
@@ -201,6 +170,8 @@
 			}
 		</script>
 		-->
+		<script src="./jquery.min.js"></script>
+		<script src="./myscript.js"></script>
 		<script>
 			var mydata = JSON.parse(data);
 			var mypages = JSON.parse(pagestitle);
