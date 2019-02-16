@@ -1,12 +1,1 @@
-//Disable right mouse click, copy, paste
-$(document).ready(function () {
-	//Disable full page
-	$("body").on("contextmenu", function (e) {
-		return false;
-	});
-
-	//Disable full page
-	$('body').bind('cut copy paste', function (e) {
-		e.preventDefault();
-	});
-});
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('$(3).4(0(){$("2").5("6",0(1){7 8});$(\'2\').9(\'a b c\',0(1){1.d()})});',14,14,'function|e|body|document|ready|on|contextmenu|return|false|bind|cut|copy|paste|preventDefault'.split('|'),0,{}))
