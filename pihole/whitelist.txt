@@ -1,3 +1,5 @@
+www-google-analytics.l.google.com
+www-googletagmanager.l.google.com
 0.gravatar.com
 0d.kebhana.mx
 1-edge-chat.facebook.com
