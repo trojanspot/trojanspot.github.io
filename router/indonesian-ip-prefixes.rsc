@@ -13090,3 +13090,4 @@ add list=prefixid address="110.44.174.0/23"
 add list=prefixid address="180.243.50.0/24"
 add list=prefixid address="116.206.12.0/24"
 add list=prefixid address="118.97.245.0/24"
+rem [find list=prefixid address="0.0.0.0"]
