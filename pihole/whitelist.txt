@@ -1,5 +1,4 @@
 community.opendns.com
-paf.com (finnish (legal) Casino-site)
 pubads.g.doubleclick.net
 googletagservices.com
 imasdk.googleapis.com
