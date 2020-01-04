@@ -1,3 +1,18 @@
+community.opendns.com
+paf.com (finnish (legal) Casino-site)
+pubads.g.doubleclick.net
+googletagservices.com
+imasdk.googleapis.com
+googletagmanager.com
+d3rt1990lpmkn.cloudfront.net
+doubleclick.net
+googleadservices.com
+gtssl2-ocsp.geotrust.com
+open.spotify.com
+pagead46.l.doubleclick.net
+pubads.g.doubleclick.net
+redirector.gvt1.com
+googletagservices.com
 www-google-analytics.l.google.com
 www-googletagmanager.l.google.com
 0.gravatar.com
