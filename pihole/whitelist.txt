@@ -168,6 +168,7 @@ api.paypal.com
 api.peer5.com
 api.pinterest.com
 api.pluto.tv
+api.rlje.net
 api.sbs.com.au
 api.soundcloud.com
 api.termius.com
@@ -1271,6 +1272,7 @@ istockphoto.com
 itknowledgeexchange.techtarget.com
 itpapers.techrepublic.com
 itunes.apple.com
+j.mp
 jabcreations.com
 japan.techrepublic.com
 jcpenney.com
@@ -2206,6 +2208,7 @@ sysctl.org
 szczecin.tvp.pl
 t0.ssl.ak.dynamic.tiles.virtualearth.net
 t0.ssl.ak.tiles.virtualearth.net
+t.co
 t.nyaatracker.com
 t.paypal.com
 t.purch.com
@@ -2318,6 +2321,7 @@ tracker.tvunderground.org.ru
 tracker.uw0.xyz
 tracker.vanitycore.co
 tracker.veryamt.com
+traffic.libsyn.com
 trak.in
 translate.google.com
 travel.latimes.com
@@ -2510,6 +2514,7 @@ www.consent.truste.com
 www.crunchbase.com
 www.csp.medium.com
 www.ct.techrepublic.com
+www.dataplicity.com
 www.dbs.com
 www.developers.medium.com
 www.digitaltrends.com
@@ -2573,6 +2578,7 @@ www.mystart.com
 www.namecheap.com
 www.nationalgeographic.com
 www.nls.techrepublic.com
+www.no-ip.com
 www.noteworthy.medium.com
 www.npmjs.com
 www.o1.email.medium.com
