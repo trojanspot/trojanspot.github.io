@@ -1,0 +1,344 @@
+# DNS over HTTPS (DoH) server list
+# Servers are in order by the domain name, then subdomain name to help maintain sanity as the list grows.
+# You *must* re-direct all standard DNS outbound (UDP 53) to an internal server. This ensures the bootstrap address is your DNS server.
+# While you're at it, you should also block all DNS over TLS outbound (TCP 853).
+# Some would call this a whack-a-mole approach. I call it a marginal improvement. ;-)
+# Twitter: @oneoffdallas
+# Homepage: https://github.com/oneoffdallas/dohservers
+# Raw data: https://raw.githubusercontent.com/oneoffdallas/dohservers/master/list.txt
+#
+# Added: 29 Oct 2021
+# Last modified: 29 Oct 2021
+#
+/ip firewall address-list
+#
+add list=DoH-server address=doh.42l.fr
+#
+add list=DoH-server address=i.233py.com
+add list=DoH-server address=i.233py.com.a.bdydns.com
+add list=DoH-server address=opencdn.jomodns.com
+add list=DoH-server address=dns.233py.com
+add list=DoH-server address=dns.233py.com.cdn.cloudflare.net
+
+### following 233py.com need to be checked if still in use
+add list=DoH-server address=edns.233py.com
+add list=DoH-server address=ndns.233py.com
+add list=DoH-server address=sdns.233py.com
+add list=DoH-server address=wdns.233py.com
+#
+add list=DoH-server address=dns-gcp.aaflalo.me
+add list=DoH-server address=dns-nyc.aaflalo.me
+add list=DoH-server address=dns.aaflalo.me
+add list=DoH-server address=doh.abmb.win
+add list=DoH-server address=doh2.abmb.win
+add list=DoH-server address=dns.adguard.com
+add list=DoH-server address=dns-family.adguard.com
+add list=DoH-server address=dns-unfiltered.adguard.com
+#
+add list=DoH-server address=doh.nl.ahadns.net
+add list=DoH-server address=doh.in.ahadns.net
+add list=DoH-server address=doh.la.ahadns.net
+add list=DoH-server address=doh.ny.ahadns.net
+add list=DoH-server address=doh.pl.ahadns.net
+add list=DoH-server address=doh.it.ahadns.net
+add list=DoH-server address=doh.es.ahadns.net
+add list=DoH-server address=doh.no.ahadns.net
+add list=DoH-server address=doh.chi.ahadns.net
+add list=DoH-server address=doh.au.ahadns.net
+add list=DoH-server address=dot.nl.ahadns.net
+add list=DoH-server address=dot.in.ahadns.net
+add list=DoH-server address=dot.la.ahadns.net
+add list=DoH-server address=dot.ny.ahadns.net
+add list=DoH-server address=dot.pl.ahadns.net
+add list=DoH-server address=dot.it.ahadns.net
+add list=DoH-server address=dot.es.ahadns.net
+add list=DoH-server address=dot.no.ahadns.net
+add list=DoH-server address=dot.chi.ahadns.net
+add list=DoH-server address=dot.au.ahadns.net
+#
+add list=DoH-server address=dns.alekberg.net
+add list=DoH-server address=dns2.alekberg.net
+add list=DoH-server address=dnses.alekberg.net
+add list=DoH-server address=dnsnl.alekberg.net
+add list=DoH-server address=dnsse.alekberg.net
+add list=DoH-server address=dns.alidns.com
+#
+add list=DoH-server address=doh.appliedprivacy.net
+add list=DoH-server address=doh.applied-privacy.net
+add list=DoH-server address=dot1.applied-privacy.net
+#
+add list=DoH-server address=doh.armadillodns.net
+add list=DoH-server address=dohtrial.att.net
+#
+add list=DoH-server address=doh1.blahdns.com
+add list=DoH-server address=doh1.b-cdn.net
+add list=DoH-server address=doh2.blahdns.com
+add list=DoH-server address=doh2.b-cdn.net
+add list=DoH-server address=dot-ch.blahdns.com
+add list=DoH-server address=doh-ch.blahdns.com
+add list=DoH-server address=dot-fi.blahdns.com
+add list=DoH-server address=doh-fi.blahdns.com
+add list=DoH-server address=dot-de.blahdns.com
+add list=DoH-server address=doh-de.blahdns.com
+add list=DoH-server address=dot-jp.blahdns.com
+add list=DoH-server address=doh-jp.blahdns.com
+add list=DoH-server address=dot-sg.blahdns.com
+add list=DoH-server address=doh-sg.blahdns.com
+add list=DoH-server address=doh.blockerdns.com
+add list=DoH-server address=doh.bortzmeyer.fr
+add list=DoH-server address=dns.brahma.world
+add list=DoH-server address=free.bravedns.com
+add list=DoH-server address=bravedns.com
+#
+add list=DoH-server address=doh.captnemo.in
+add list=DoH-server address=ibuki.cgnat.net
+add list=DoH-server address=canadianshield.cira.ca
+add list=DoH-server address=family.canadianshield.cira.ca
+add list=DoH-server address=private.canadianshield.cira.ca
+add list=DoH-server address=protected.canadianshield.cira.ca
+#
+add list=DoH-server address=dns.cloudflare.com
+add list=DoH-server address=cloudflare-dns.com
+add list=DoH-server address=1dot1dot1dot1.cloudflare-dns.com
+add list=DoH-server address=one.one.one.one
+add list=DoH-server address=dns64.cloudflare-dns.com
+add list=DoH-server address=family.cloudflare-dns.com
+add list=DoH-server address=mozilla.cloudflare-dns.com
+add list=DoH-server address=security.cloudflare-dns.com
+add list=DoH-server address=cloudflare-gateway.com
+#
+add list=DoH-server address=doh.cleanbrowsing.org
+add list=DoH-server address=security-filter-dns.cleanbrowsing.org
+add list=DoH-server address=adult-filter-dns.cleanbrowsing.org
+add list=DoH-server address=family-filter-dns.cleanbrowsing.org
+#
+add list=DoH-server address=dns.cmrg.net
+add list=DoH-server address=commons.host
+add list=DoH-server address=dns.containerpi.com
+add list=DoH-server address=dohdot.coxlab.net
+add list=DoH-server address=doh.crypto.sx
+#
+add list=DoH-server address=jit.ddns.net
+add list=DoH-server address=dns.decloudus.com
+add list=DoH-server address=doh.defaultroutes.de
+add list=DoH-server address=dns.developer.li
+add list=DoH-server address=dns2.developer.li
+add list=DoH-server address=dns.digitale-gesellschaft.ch
+add list=DoH-server address=dns1.digitale-gesellschaft.ch
+add list=DoH-server address=dns2.digitale-gesellschaft.ch
+add list=DoH-server address=ns1.recursive.dnsbycomodo.com
+add list=DoH-server address=ns2.recursive.dnsbycomodo.com
+add list=DoH-server address=dnsforge.de
+add list=DoH-server address=dns.google
+add list=DoH-server address=dns64.dns.google
+add list=DoH-server address=dns.dnshome.de
+add list=DoH-server address=dns1.dnscrypt.ca
+add list=DoH-server address=dns2.dnscrypt.ca
+add list=DoH-server address=doh.dns.sb
+add list=DoH-server address=public-dns-a.dns.sb
+add list=DoH-server address=public-dns-b.dns.sb
+#
+add list=DoH-server address=doh.dnslify.com
+add list=DoH-server address=a.ns.dnslify.com
+add list=DoH-server address=b.ns.dnslify.com
+add list=DoH-server address=a.safe.ns.dnslify.com
+add list=DoH-server address=b.safe.ns.dnslify.com
+add list=DoH-server address=a.family.ns.dnslify.com
+add list=DoH-server address=b.family.ns.dnslify.com
+#
+add list=DoH-server address=dns.dnsoverhttps.net
+add list=DoH-server address=dns.dns-over-https.com
+add list=DoH-server address=adblock-dot.dnswarden.com
+add list=DoH-server address=adult-filter-dot.dnswarden.com
+add list=DoH-server address=doh.dnswarden.com
+add list=DoH-server address=ecs-doh.dnswarden.com
+add list=DoH-server address=uncensored-dot.dnswarden.com
+add list=DoH-server address=doh.li
+#
+add list=DoH-server address=doh.ffmuc.net
+add list=DoH-server address=dot.ffmuc.net
+add list=DoH-server address=rdns.faelix.net
+add list=DoH-server address=pdns.faelix.net
+add list=DoH-server address=dns.flatuslifir.is
+#
+add list=DoH-server address=dns.google.com
+add list=DoH-server address=google-public-dns-a.google.com
+add list=DoH-server address=google-public-dns-b.google.com
+#
+add list=DoH-server address=query.hdns.io
+add list=DoH-server address=ordns.he.net
+add list=DoH-server address=dns.hostux.net
+#
+add list=DoH-server address=opennic.i2pd.xyz
+add list=DoH-server address=public.dns.iij.jp
+#
+add list=DoH-server address=jcdns.fun
+#
+add list=DoH-server address=us1.dns.lavate.ch
+add list=DoH-server address=eu1.dns.lavate.ch
+add list=DoH-server address=resolver-eu.lelux.fi
+add list=DoH-server address=doh.libredns.org
+add list=DoH-server address=dot.libredns.gr.com
+add list=DoH-server address=doh.libredns.gr
+#
+add list=DoH-server address=jarjar.meganerd.nl
+add list=DoH-server address=dns.mrkaran.dev
+add list=DoH-server address=adblock.mydns.network
+#
+add list=DoH-server address=dns.neutopia.org
+add list=DoH-server address=dns.aa.net.uk
+add list=DoH-server address=doh.netweaver.uk
+add list=DoH-server address=dns.nextdns.io
+add list=DoH-server address=dns1.nextdns.io
+add list=DoH-server address=dns2.nextdns.io
+add list=DoH-server address=odvr.nic.cz
+add list=DoH-server address=dns.nixnet.xyz
+add list=DoH-server address=lv1.nixnet.xyz
+add list=DoH-server address=ny1.nixnet.xyz
+add list=DoH-server address=lux1.nixnet.xyz
+add list=DoH-server address=dns.njal.la
+
+#
+add list=DoH-server address=doh.opendns.com
+add list=DoH-server address=doh.familyshield.opendns.com
+add list=DoH-server address=doh.sandbox.opendns.com
+add list=DoH-server address=resolver1.opendns.com
+add list=DoH-server address=resolver2.opendns.com
+add list=DoH-server address=resolver1-fs.opendns.com
+add list=DoH-server address=resolver2-fs.opendns.com
+add list=DoH-server address=dns.oszx.co
+#
+
+add list=DoH-server address=a.passcloud.xyz
+add list=DoH-server address=i.passcloud.xyz
+add list=DoH-server address=doh.post-factum.tk
+add list=DoH-server address=doh.powerdns.org
+add list=DoH-server address=dns.pumplex.com
+#
+#
+# alias for dns.quad9.net
+add list=DoH-server address=rpz-public-resolver1.rrdns.pch.net
+#
+add list=DoH-server address=dns.quad9.net
+add list=DoH-server address=dns9.quad9.net
+add list=DoH-server address=dns10.quad9.net
+add list=DoH-server address=dns11.quad9.net
+add list=DoH-server address=dns12.quad9.net
+add list=DoH-server address=dns13.quad9.net
+add list=DoH-server address=dns-nosec.quad9.net
+#
+add list=DoH-server address=dns.rubyfish.cn
+add list=DoH-server address=ea-dns.rubyfish.cn
+add list=DoH-server address=uw-dns.rubyfish.cn
+add list=DoH-server address=rumpelsepp.org
+add list=DoH-server address=dns1.ryan-palmer.com
+#
+add list=DoH-server address=doh.securedns.eu
+add list=DoH-server address=ads-doh.securedns.eu
+add list=DoH-server address=dot.securedns.eu
+#
+add list=DoH-server address=doh.seby.io
+add list=DoH-server address=doh-2.seby.io
+add list=DoH-server address=dot.seby.io
+add list=DoH-server address=2.dnscrypt-cert.dns.seby.io
+#
+add list=DoH-server address=dnsovertls.sinodun.com
+add list=DoH-server address=dnsovertls1.sinodun.com
+add list=DoH-server address=dnsovertls2.sinodun.com
+add list=DoH-server address=dnsovertls3.sinodun.com
+add list=DoH-server address=fi.doh.dns.snopyta.org
+add list=DoH-server address=fi.dot.dns.snopyta.org
+add list=DoH-server address=dns.switch.ch
+add list=DoH-server address=ibksturm.synology.me
+#
+add list=DoH-server address=dns.t53.de
+add list=DoH-server address=dns.therifleman.name
+add list=DoH-server address=doh.tiar.app
+add list=DoH-server address=dot.tiar.app
+add list=DoH-server address=doh.tiarap.org
+add list=DoH-server address=jp.tiar.app
+add list=DoH-server address=jp.tiarap.org
+add list=DoH-server address=dns.twnic.tw
+#
+add list=DoH-server address=doh.this.web.id
+add list=DoH-server address=dns.wugui.zone
+add list=DoH-server address=dns-asia.wugui.zone
+#
+add list=DoH-server address=adfree.usableprivacy.net
+#
+add list=DoH-server address=doh.xfinity.com
+add list=DoH-server address=doh.gslb2.xfinity.com
+#
+add list=DoH-server address=fdns1.dismail.de
+add list=DoH-server address=fdns2.dismail.de
+#
+add list=DoH-server address=anycast.censurfridns.dk
+add list=DoH-server address=deic-lgb.anycast.censurfridns.dk
+add list=DoH-server address=deic-ore.anycast.censurfridns.dk
+add list=DoH-server address=kracon.anycast.censurfridns.dk
+add list=DoH-server address=rgnet-iad.anycast.censurfridns.dk
+add list=DoH-server address=unicast.censurfridns.dk
+add list=DoH-server address=anycast.uncensoreddns.org
+add list=DoH-server address=deic-lgb.anycast.uncensoreddns.org
+add list=DoH-server address=deic-ore.anycast.uncensoreddns.org
+add list=DoH-server address=kracon.anycast.uncensoreddns.org
+add list=DoH-server address=rgnet-iad.anycast.uncensoreddns.org
+add list=DoH-server address=unicast.uncensoreddns.org
+#
+add list=DoH-server address=dns.comss.one
+add list=DoH-server address=dns.east.comss.one
+add list=DoH-server address=dns-doh.dnsforfamily.com
+add list=DoH-server address=dns-dot.dnsforfamily.com
+add list=DoH-server address=dns.cfiec.net
+add list=DoH-server address=asia.dnscepat.id
+add list=DoH-server address=eropa.dnscepat.id
+add list=DoH-server address=doh.360.cn
+add list=DoH-server address=dot.360.cn
+add list=DoH-server address=doh.pub
+add list=DoH-server address=dns.pub
+add list=DoH-server address=dot.pub
+add list=DoH-server address=kaitain.restena.lu
+add list=DoH-server address=getdnsapi.net
+add list=DoH-server address=dns.larsdebruin.net
+add list=DoH-server address=dns-tls.bitwiseshift.net
+add list=DoH-server address=ns1.dnsprivacy.at
+add list=DoH-server address=ns2.dnsprivacy.at
+add list=DoH-server address=dns.bitgeek.in
+add list=DoH-server address=privacydns.go6lab.si
+add list=DoH-server address=dnsotls.lab.nic.cl
+add list=DoH-server address=tls-dns-u.odvr.dns-oarc.net
+add list=DoH-server address=doh.centraleu.pi-dns.com
+add list=DoH-server address=dot.centraleu.pi-dns.com
+add list=DoH-server address=doh.northeu.pi-dns.com
+add list=DoH-server address=dot.northeu.pi-dns.com
+add list=DoH-server address=doh.westus.pi-dns.com
+add list=DoH-server address=dot.westus.pi-dns.com
+add list=DoH-server address=doh.eastus.pi-dns.com
+add list=DoH-server address=dot.eastus.pi-dns.com
+add list=DoH-server address=doh.eastau.pi-dns.com
+add list=DoH-server address=dot.eastau.pi-dns.com
+add list=DoH-server address=doh.eastas.pi-dns.com
+add list=DoH-server address=dot.eastas.pi-dns.com
+add list=DoH-server address=doh.pi-dns.com
+add list=DoH-server address=basic.bravedns.com
+add list=DoH-server address=freedns.controld.com
+add list=DoH-server address=p0.freedns.controld.com
+add list=DoH-server address=p1.freedns.controld.com
+add list=DoH-server address=p2.freedns.controld.com
+add list=DoH-server address=p3.freedns.controld.com
+add list=DoH-server address=doh.mullvad.net
+add list=DoH-server address=adblock.doh.mullvad.net
+add list=DoH-server address=dns.arapurayil.com
+add list=DoH-server address=chrome.cloudflare-dns.com
+add list=DoH-server address=doh.xfinity.com
+add list=DoH-server address=dot.cox.net
+add list=DoH-server address=doh.cox.net
+add list=DoH-server address=dns.sb
+add list=DoH-server address=8888.google
+add list=DoH-server address=chromium.dns.nextdns.io
+add list=DoH-server address=doh.quickline.ch
+add list=DoH-server address=doh-02.spectrum.com
+add list=DoH-server address=doh-01.spectrum.com
+#
+add list=DoH-server address=mask.icloud.com
+add list=DoH-server address=mask-h2.icloud.com
