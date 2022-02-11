@@ -1,6 +1,7 @@
 version.bind
 id.server
 hostname.bind
+use-application-dns.net
 beatleslover.com
 joker2.dolphinsclean.com
 tb-eu-jet.oss-eu-central-1.aliyuncs.com
