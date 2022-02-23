@@ -3,6 +3,7 @@
 0.client-channel.google.com
 1drv.com
 2.android.pool.ntp.org
+admob.com
 akamaihd.net
 akamaitechnologies.com
 akamaized.net
