@@ -195,3 +195,12 @@ www.msftconnecttest.com
 radboox.com
 www.radboox.com
 my.radboox.com
+my.zerotier.com	
+radboox.com	
+www.radboox.com	
+www.zerotier.com	
+zerotier.com	
+mask-h2.icloud.com	
+mask.icloud.com	
+doh.dns.apple.com	
+chrome.cloudflare-dns.com
