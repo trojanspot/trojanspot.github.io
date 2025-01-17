@@ -1,4 +1,5 @@
 /ip dns stat
+#remove [find comment=Phising]
 add address=127.0.0.1 comment=Phising name=ayoo-d4ftarrr-fstvll-new.id
 add address=127.0.0.1 comment=Phising name=pendaftaranterbaru.pro
 add address=127.0.0.1 comment=Phising name=join-now.id
@@ -11,6 +12,12 @@ add address=127.0.0.1 comment=Phising name=pendaftaran2025.info
 add address=127.0.0.1 comment=Phising name=2-4e.my.id
 add address=127.0.0.1 comment=Phising name=bansos-pkh-dtks-terkini02-1.vercel.app
 add address=127.0.0.1 comment=Phising name=indo-assist.vercel.app
+add address=127.0.0.1 comment=Phising name=ayo-lbrlmofstvll.id
+add address=127.0.0.1 comment=Phising name=e55dftr-skrang44.my.id
+add address=127.0.0.1 comment=Phising name=registrasi2025.info
+add address=127.0.0.1 comment=Phising name=daftar-fstvll-brlmo.id
+add address=127.0.0.1 comment=Phising name=paylater-dana-idn.vercel.app
+add address=127.0.0.1 comment=Phising name=edisi-tahunbaru.my.id
 add address=127.0.0.1 comment=Phising regexp=*.remi.software
 add address=127.0.0.1 comment=Phising regexp=*.hufn.mobi
 add address=127.0.0.1 comment=Phising regexp=*.zoyz.me
@@ -40,3 +47,24 @@ add address=127.0.0.1 comment=Phising regexp=*.fstvll.web.id
 add address=127.0.0.1 comment=Phising regexp=*.updatenew-info.my.id
 add address=127.0.0.1 comment=Phising regexp=*.nvfd.xyz
 add address=127.0.0.1 comment=Phising regexp=*.burntopp.top
+add address=127.0.0.1 comment=Phising regexp=*.tlikme.my
+add address=127.0.0.1 comment=Phising regexp=*.gshorty.xyz
+add address=127.0.0.1 comment=Phising regexp=*.hlo.my.id
+add address=127.0.0.1 comment=Phising regexp=*.slogi.lat
+add address=127.0.0.1 comment=Phising regexp=*.5g-f12.my.id
+add address=127.0.0.1 comment=Phising regexp=*.fhj09.biz.id
+add address=127.0.0.1 comment=Phising regexp=*.awet9.my.id
+add address=127.0.0.1 comment=Phising regexp=*.12jamfest.com
+add address=127.0.0.1 comment=Phising regexp=*.pkss25.sbs
+add address=127.0.0.1 comment=Phising regexp=*.isdiana.my
+add address=127.0.0.1 comment=Phising regexp=*.wifveb.my
+add address=127.0.0.1 comment=Phising regexp=*.pages.dev
+add address=127.0.0.1 comment=Phising regexp=*.ytxcsz.my.id
+add address=127.0.0.1 comment=Phising regexp=*.poa64.my.id
+add address=127.0.0.1 comment=Phising regexp=*.dnac.my.id
+add address=127.0.0.1 comment=Phising regexp=*.opisial.com
+add address=127.0.0.1 comment=Phising regexp=*.x-promo-vip.web.id
+add address=127.0.0.1 comment=Phising regexp=*.zrh.web.id
+add address=127.0.0.1 comment=Phising regexp=*.elfsig.ht
+add address=127.0.0.1 comment=Phising regexp=*.btvs.biz.id
+add address=127.0.0.1 comment=Phising regexp=*.bsy-13.my
