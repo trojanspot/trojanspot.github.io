@@ -68,6 +68,11 @@ add address=127.0.0.1 comment=Phising name=maret2025.my.id
 add address=127.0.0.1 comment=Phising name=promohari-ini.my.id
 add address=127.0.0.1 comment=Phising name=joinx2025newv2.my.id
 add address=127.0.0.1 comment=Phising name=indopage-webs.vercel.app
+add address=127.0.0.1 comment=Phising name=cekpemenangftvl.my.id
+add address=127.0.0.1 comment=Phising name=webidn.com
+add address=127.0.0.1 comment=Phising name=bisinissiap.com
+add address=127.0.0.1 comment=Phising name=livinby1-fstvlid.my.id
+add address=127.0.0.1 comment=Phising name=lqladepageback.xyz
 add address=127.0.0.1 comment=Phising regexp=*.fouckme.top
 add address=127.0.0.1 comment=Phising regexp=*.zerotoheroads.xyz
 add address=127.0.0.1 comment=Phising regexp=*.zerotoheroads.pro
@@ -89,6 +94,7 @@ add address=127.0.0.1 comment=Phising regexp=*.wvall.cfd
 add address=127.0.0.1 comment=Phising regexp=*.wdana.cfd
 add address=127.0.0.1 comment=Phising regexp=*.bwq.my.id
 add address=127.0.0.1 comment=Phising regexp=*.shtlin.xyz
+add address=127.0.0.1 comment=Phising regexp=*.shtlyn.xyz
 add address=127.0.0.1 comment=Phising regexp=*.vsrt.my.id
 add address=127.0.0.1 comment=Phising regexp=*.appg0.xyz
 add address=127.0.0.1 comment=Phising regexp=*.carrd.co
@@ -174,3 +180,10 @@ add address=127.0.0.1 comment=Phising regexp=*.persen.my.id
 add address=127.0.0.1 comment=Phising regexp=*.tepeng.works
 add address=127.0.0.1 comment=Phising regexp=*.aep44.my.id
 add address=127.0.0.1 comment=Phising regexp=*.wibly.cfd
+add address=127.0.0.1 comment=Phising regexp=*.web-bbbct.my.id
+add address=127.0.0.1 comment=Phising regexp=*.id-host.biz.id
+add address=127.0.0.1 comment=Phising regexp=*.berdu.pw
+add address=127.0.0.1 comment=Phising regexp=*.furx35.com
+add address=127.0.0.1 comment=Phising regexp=*.roll0n.com
+add address=127.0.0.1 comment=Phising regexp=*.piimaallchaiin.com
+add address=127.0.0.1 comment=Phising regexp=*.silent.biz.id
